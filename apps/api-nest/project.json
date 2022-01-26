@@ -24,6 +24,12 @@
         "tsConfig": "apps/api-nest/tsconfig.app.json",
         "assets": [
           "apps/api-nest/src/assets"
+        ],
+        "additionalEntryPoints": [
+          {
+            "entryName": "tailwind",
+            "entryPath": "apps/api-nest/postcss.config.js"
+          }
         ]
       },
       "configurations": {
